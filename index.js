@@ -9,7 +9,10 @@ while (einkaufskorb.length > 0) {let lastItem = einkaufskorb(einkaufskorb.length
 console.log("heraus nehmen", lastItem);
 console.log(einkaufskorb);}
 */
+// let ermöglicht es Variablen zu deklarieren
 let spotsRemaning = 100;
-while(spotsRemaning > 0){console.log("Zahl");
+//Die while-Anweisung (Engl. statement) beschreibt eine Schleife, die solange durchlaufen wird wie die Schleifenbedingung wahr (Engl. true) ergibt.
+while(spotsRemaning > 0){console.log("Zahl");  
+// Deklementiert die Schritt größe um 1
 spotsRemaning = spotsRemaning -1;}
 
